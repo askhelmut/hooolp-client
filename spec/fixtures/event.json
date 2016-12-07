@@ -1,0 +1,31 @@
+{
+  "id": "5108274",
+  "startDate": "2016-12-08 20:00:00",
+  "startTimestamp": "1481223600",
+  "acts": "Bukahara",
+  "addText": "This is a description.",
+  "location": "",
+  "city": "Berlin",
+  "tickets": true,
+  "genre": "",
+  "shortCountry": "D",
+  "alias": "Bukahara+at+Astra_Kulturhaus_Berlin+DE+on+08-12-2016",
+  "tip": "0",
+  "type": "1",
+  "locationString": "Astra Kulturhaus",
+  "lat": "52.5083",
+  "lon": "13.4523",
+  "countryCode": "DE",
+  "averageRating": 0,
+  "freetickets": false,
+  "bandFotos": [
+    "/media/avatars/bands/1374261756_www-hooolp-com_5757970"
+  ],
+  "genresCsv": "Gothic ,Electro",
+  "genresArray": [],
+  "genreKeysCsv": [
+    "69",
+    "63"
+  ],
+  "genreString": "Gothic"
+}

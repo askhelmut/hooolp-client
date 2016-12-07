@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api2.hooolp.com/events.json?ctr=DE&key=testkey&locations=3852
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - ASK HELMUT Hooolp Client 0.0.1
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Wed, 07 Dec 2016 17:22:37 GMT
+      Server:
+      - Apache/2.4.7 (Ubuntu)
+      Location:
+      - http://www.hooolp.com/acp/lib/api2.0/response.php?restRequestSubject=events&restRequestType=json&restRequestParam=events&locations=3852&ctr=DE&key=403c20ce62d24726235bd2a59f02eab2c858e943e869b9ac04e373bc293a14f1
+      Content-Length:
+      - '495'
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>302 Found</title>
+        </head><body>
+        <h1>Found</h1>
+        <p>The document has moved <a href="http://www.hooolp.com/acp/lib/api2.0/response.php?restRequestSubject=events&amp;restRequestType=json&amp;restRequestParam=events&amp;locations=3852&amp;ctr=DE&amp;key=403c20ce62d24726235bd2a59f02eab2c858e943e869b9ac04e373bc293a14f1">here</a>.</p>
+        <hr>
+        <address>Apache/2.4.7 (Ubuntu) Server at api2.hooolp.com Port 80</address>
+        </body></html>
+    http_version:
+  recorded_at: Wed, 07 Dec 2016 17:22:37 GMT
+- request:
+    method: get
+    uri: http://www.hooolp.com/acp/lib/api2.0/response.php?ctr=DE&key=403c20ce62d24726235bd2a59f02eab2c858e943e869b9ac04e373bc293a14f1&locations=3852&restRequestParam=events&restRequestSubject=events&restRequestType=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - ASK HELMUT Hooolp Client 0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 07 Dec 2016 17:22:38 GMT
+      Server:
+      - Apache/2.4.7 (Ubuntu)
+      X-Powered-By:
+      - PHP/5.5.9-1ubuntu4.17
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Sat, 26 Jul 1997 05:00:00 GMT
+      Last-Modified:
+      - Wed, 07 Dec 2016 17:22:38 GMT
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"event":{"id":"5108274","startDate":"2016-12-08 20:00:00","startTimestamp":"1481223600","acts":"Bukahara","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Bukahara+at+Astra_Kulturhaus_Berlin+DE+on+08-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1374261756_www-hooolp-com_5757970"],"genresCsv":"World","genresArray":[],"genreKeysCsv":["66"],"genreString":"World"}},{"event":{"id":"5127350","startDate":"2016-12-09
+        23:59:00","startTimestamp":"1481324340","acts":"Heartbreaks & Promises","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"Heartbreaks_and_Promises+at+Astra_Kulturhaus_Berlin+DE+on+09-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_154460674.jpg"],"genresCsv":"Party","genresArray":[],"genreKeysCsv":["31"],"genreString":"Party"}},{"event":{"id":"5108267","startDate":"2016-12-10
+        23:00:00","startTimestamp":"1481407200","acts":"Star FM Club","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"Star_FM_Club+at+Astra_Kulturhaus_Berlin+DE+on+10-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Party,Rock","genresArray":[],"genreKeysCsv":["31","28"],"genreString":"Party"}},{"event":{"id":"5098274","startDate":"2016-12-15
+        19:30:00","startTimestamp":"1481826600","acts":"The Amity Affliction","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"The_Amity_Affliction+at+Astra_Kulturhaus_Berlin+DE+on+15-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1312906793_https:_3158585.jpg"],"genresCsv":"Punk,Rock","genresArray":[],"genreKeysCsv":["46","28"],"genreString":"Punk"}},{"event":{"id":"5120971","startDate":"2016-12-17
+        21:00:00","startTimestamp":"1482004800","acts":"Thomas Anders & Modern Talking
+        Band","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Thomas_Anders_and_Modern_Talking_Band+at+Astra_Kulturhaus_Berlin+DE+on+17-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":5,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_774837529.jpeg"],"genresCsv":"Pop","genresArray":[],"genreKeysCsv":["29"],"genreString":"Pop"}},{"event":{"id":"5108266","startDate":"2016-12-17
+        23:00:00","startTimestamp":"1482012000","acts":"Astra! Astra! Party! Hits!","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"Astra_Astra_Party_Hits+at+Astra_Kulturhaus_Berlin+DE+on+17-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Party","genresArray":[],"genreKeysCsv":["31"],"genreString":"Party"}},{"event":{"id":"5121733","startDate":"2016-12-21
+        20:15:00","startTimestamp":"1482347700","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+21-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121734","startDate":"2016-12-22
+        20:15:00","startTimestamp":"1482434100","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+22-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121735","startDate":"2016-12-26
+        20:15:00","startTimestamp":"1482779700","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+26-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121736","startDate":"2016-12-27
+        20:15:00","startTimestamp":"1482866100","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+27-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121737","startDate":"2016-12-28
+        20:15:00","startTimestamp":"1482952500","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+28-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121738","startDate":"2016-12-29
+        20:15:00","startTimestamp":"1483038900","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+29-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121739","startDate":"2016-12-30
+        20:15:00","startTimestamp":"1483125300","acts":"FIL","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"FIL+at+Astra_Kulturhaus_Berlin+DE+on+30-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5121731","startDate":"2016-12-31
+        23:00:00","startTimestamp":"1483221600","acts":"Happy New Yeah!","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"Happy_New_Yeah+at+Astra_Kulturhaus_Berlin+DE+on+31-12-2016","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_405069142.jpg"],"genresCsv":"Party","genresArray":[],"genreKeysCsv":["31"],"genreString":"Party"}},{"event":{"id":"5101549","startDate":"2017-01-18
+        18:00:00","startTimestamp":"1484758800","acts":"EMP Persistence Tour","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"EMP_Persistence_Tour+at+Astra_Kulturhaus_Berlin+DE+on+18-01-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Metal,Rock","genresArray":[],"genreKeysCsv":["30","28"],"genreString":"Metal"}},{"event":{"id":"5087976","startDate":"2017-01-21
+        20:00:00","startTimestamp":"1485025200","acts":"Elsterglanz","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Elsterglanz+at+Astra_Kulturhaus_Berlin+DE+on+21-01-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Andere","genresArray":[],"genreKeysCsv":["41"],"genreString":"Andere"}},{"event":{"id":"5091524","startDate":"2017-01-22
+        20:00:00","startTimestamp":"1485111600","acts":"Elsterglanz","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Elsterglanz+at+Astra_Kulturhaus_Berlin+DE+on+22-01-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Andere","genresArray":[],"genreKeysCsv":["41"],"genreString":"Andere"}},{"event":{"id":"5111330","startDate":"2017-01-25
+        20:00:00","startTimestamp":"1485370800","acts":"Gutterd\u00e4mmerung","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Gutterdaemmerung+at+Astra_Kulturhaus_Berlin+DE+on+25-01-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Andere","genresArray":[],"genreKeysCsv":["41"],"genreString":"Andere"}},{"event":{"id":"5127351","startDate":"2017-01-27
+        19:00:00","startTimestamp":"1485540000","acts":"Remode","addText":"","location":"","city":"Berlin","tickets":false,"genre":"","shortCountry":"D","alias":"Remode+at+Astra_Kulturhaus_Berlin+DE+on+27-01-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_816336739.jpg"],"genresCsv":"Cover,Electro,Pop","genresArray":[],"genreKeysCsv":["38","63","29"],"genreString":"Cover"}},{"event":{"id":"5122370","startDate":"2017-02-04
+        20:00:00","startTimestamp":"1486234800","acts":"Trentemoller","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Trentemoller+at+Astra_Kulturhaus_Berlin+DE+on+04-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/templates\/templates\/hooolp-de\/images\/noBandImage.png"],"genresCsv":"Electro,Indie","genresArray":[],"genreKeysCsv":["63","62"],"genreString":"Electro"}},{"event":{"id":"5109209","startDate":"2017-02-05
+        20:00:00","startTimestamp":"1486321200","acts":"Clueso","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Clueso+at+Astra_Kulturhaus_Berlin+DE+on+05-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":9.8,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_770876051.jpg"],"genresCsv":"Hip-Hop,Rap","genresArray":[],"genreKeysCsv":["53","64"],"genreString":"Hip-Hop"}},{"event":{"id":"5116954","startDate":"2017-02-09
+        20:00:00","startTimestamp":"1486666800","acts":"Sum 41","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Sum_41+at+Astra_Kulturhaus_Berlin+DE+on+09-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1267033598_media-ticketmaster-co-uk_8248627.jpg"],"genresCsv":"Rock,Punk","genresArray":[],"genreKeysCsv":["28","46"],"genreString":"Rock"}},{"event":{"id":"5122797","startDate":"2017-02-10
+        21:00:00","startTimestamp":"1486756800","acts":"Tycho","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Tycho+at+Astra_Kulturhaus_Berlin+DE+on+10-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1403798229_cdn1-viagogo-net_6616886.jpg"],"genresCsv":"Electro","genresArray":[],"genreKeysCsv":["63"],"genreString":"Electro"}},{"event":{"id":"5122866","startDate":"2017-02-17
+        20:00:00","startTimestamp":"1487358000","acts":"SOHN","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"SOHN+at+Astra_Kulturhaus_Berlin+DE+on+17-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_300773374.jpg"],"genresCsv":"Pop","genresArray":[],"genreKeysCsv":["29"],"genreString":"Pop"}},{"event":{"id":"5121394","startDate":"2017-02-20
+        20:00:00","startTimestamp":"1487617200","acts":"Rival Sons","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Rival_Sons+at+Astra_Kulturhaus_Berlin+DE+on+20-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":10,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1315662950_www-karsten-jahnke-de_2453936.jpg"],"genresCsv":"Blues,Rock","genresArray":[],"genreKeysCsv":["59","28"],"genreString":"Blues"}},{"event":{"id":"5107915","startDate":"2017-02-25
+        19:30:00","startTimestamp":"1488047400","acts":"Skunk Anansie","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Skunk_Anansie+at+Astra_Kulturhaus_Berlin+DE+on+25-02-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":9.2,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1244727286_media-ticketmaster-co-uk_9733003.jpg"],"genresCsv":"Rock","genresArray":[],"genreKeysCsv":["28"],"genreString":"Rock"}},{"event":{"id":"5116338","startDate":"2017-03-05
+        20:00:00","startTimestamp":"1488740400","acts":"Macy Gray","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Macy_Gray+at+Astra_Kulturhaus_Berlin+DE+on+05-03-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1284473452_www-hooolp-com_3833499"],"genresCsv":"Blues,Soul","genresArray":[],"genreKeysCsv":["59","34"],"genreString":"Blues"}},{"event":{"id":"5119297","startDate":"2017-03-06
+        20:00:00","startTimestamp":"1488826800","acts":"Tove Lo","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Tove_Lo+at+Astra_Kulturhaus_Berlin+DE+on+06-03-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1377771615_www-karsten-jahnke-de_5543985.jpg"],"genresCsv":"Pop,Rock","genresArray":[],"genreKeysCsv":["29","28"],"genreString":"Pop"}},{"event":{"id":"5108763","startDate":"2017-03-10
+        20:00:00","startTimestamp":"1489172400","acts":"Grossstadtgefl\u00fcster","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Grossstadtgefluester+at+Astra_Kulturhaus_Berlin+DE+on+10-03-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_723006728.jpg"],"genresCsv":"Electro,Pop","genresArray":[],"genreKeysCsv":["63","29"],"genreString":"Electro"}},{"event":{"id":"5116356","startDate":"2017-03-22
+        20:00:00","startTimestamp":"1490209200","acts":"Hundreds","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Hundreds+at+Astra_Kulturhaus_Berlin+DE+on+22-03-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1272358127_www-adticket-de_7881297.jpg"],"genresCsv":"Alternative","genresArray":[],"genreKeysCsv":["61"],"genreString":"Alternative"}},{"event":{"id":"5112970","startDate":"2017-03-23
+        20:00:00","startTimestamp":"1490295600","acts":"Tory Lanez","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Tory_Lanez+at+Astra_Kulturhaus_Berlin+DE+on+23-03-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1436973596_www-hekticket-de_8303882.jpg"],"genresCsv":"Hip-Hop","genresArray":[],"genreKeysCsv":["53"],"genreString":"Hip-Hop"}},{"event":{"id":"5125745","startDate":"2017-04-01
+        20:00:00","startTimestamp":"1491069600","acts":"Jon & Roy","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Jon_and_Roy+at+Astra_Kulturhaus_Berlin+DE+on+01-04-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1459265163_www-hooolp-com_3469666"],"genresCsv":"Folk,Rock","genresArray":[],"genreKeysCsv":["65","28"],"genreString":"Folk"}},{"event":{"id":"5128216","startDate":"2017-04-04
+        19:00:00","startTimestamp":"1491325200","acts":"Bone Man","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Bone_Man+at+Astra_Kulturhaus_Berlin+DE+on+04-04-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_683868566.jpg"],"genresCsv":"Rock","genresArray":[],"genreKeysCsv":["28"],"genreString":"Rock"}},{"event":{"id":"5127496","startDate":"2017-04-05
+        20:00:00","startTimestamp":"1491415200","acts":"Devendra Banhart","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Devendra_Banhart+at+Astra_Kulturhaus_Berlin+DE+on+05-04-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1253655429_www-karsten-jahnke-de_1812122.jpg"],"genresCsv":"Pop","genresArray":[],"genreKeysCsv":["29"],"genreString":"Pop"}},{"event":{"id":"5106107","startDate":"2017-04-22
+        19:00:00","startTimestamp":"1492880400","acts":"Lord Of The Lost","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Lord_Of_The_Lost+at+Astra_Kulturhaus_Berlin+DE+on+22-04-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":6,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1259346459_www-hooolp-com_1279834"],"genresCsv":"Metal,Alternative","genresArray":[],"genreKeysCsv":["30","61"],"genreString":"Metal"}},{"event":{"id":"5126273","startDate":"2017-04-24
+        20:00:00","startTimestamp":"1493056800","acts":"Joy Denalane","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Joy_Denalane+at+Astra_Kulturhaus_Berlin+DE+on+24-04-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1305389913_www-karsten-jahnke-de_1918386.jpg"],"genresCsv":"Soul","genresArray":[],"genreKeysCsv":["34"],"genreString":"Soul"}},{"event":{"id":"5119350","startDate":"2017-05-03
+        20:00:00","startTimestamp":"1493834400","acts":"MIGHTY OAKS","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"MIGHTY_OAKS+at+Astra_Kulturhaus_Berlin+DE+on+03-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1345028295_www-hooolp-com_4040875"],"genresCsv":"Folk,Indie","genresArray":[],"genreKeysCsv":["65","62"],"genreString":"Folk"}},{"event":{"id":"5125194","startDate":"2017-05-05
+        20:00:00","startTimestamp":"1494007200","acts":"Milow","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Milow+at+Astra_Kulturhaus_Berlin+DE+on+05-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":5,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_992942334.jpg"],"genresCsv":"Song","genresArray":[],"genreKeysCsv":["36"],"genreString":"Song"}},{"event":{"id":"5115455","startDate":"2017-05-06
+        19:00:00","startTimestamp":"1494090000","acts":"El\u00e4kel\u00e4iset","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Elaekelaeiset+at+Astra_Kulturhaus_Berlin+DE+on+06-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_223226223.jpg"],"genresCsv":"Cover,Rock,Pop","genresArray":[],"genreKeysCsv":["38","28","29"],"genreString":"Cover"}},{"event":{"id":"5125680","startDate":"2017-05-12
+        19:30:00","startTimestamp":"1494610200","acts":"Blutengel","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Blutengel+at+Astra_Kulturhaus_Berlin+DE+on+12-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":10,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_662718891.jpg"],"genresCsv":"Gothic,Electro","genresArray":[],"genreKeysCsv":["69","63"],"genreString":"Gothic"}},{"event":{"id":"5125679","startDate":"2017-05-13
+        19:30:00","startTimestamp":"1494696600","acts":"Blutengel","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Blutengel+at+Astra_Kulturhaus_Berlin+DE+on+13-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":10,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_662718891.jpg"],"genresCsv":"Gothic,Electro","genresArray":[],"genreKeysCsv":["69","63"],"genreString":"Gothic"}},{"event":{"id":"5092208","startDate":"2017-05-20
+        14:30:00","startTimestamp":"1495283400","acts":"Final Festival II","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Final_Festival_II+at+Astra_Kulturhaus_Berlin+DE+on+20-05-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/1465647789_www-hekticket-de_9044030.jpg"],"genresCsv":"Festival","genresArray":[],"genreKeysCsv":["27"],"genreString":"Festival"}},{"event":{"id":"5120590","startDate":"2017-10-20
+        20:00:00","startTimestamp":"1508522400","acts":"Oliver Polak","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"Oliver_Polak+at+Astra_Kulturhaus_Berlin+DE+on+20-10-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":10,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_122407734.jpg"],"genresCsv":"Andere","genresArray":[],"genreKeysCsv":["41"],"genreString":"Andere"}},{"event":{"id":"5121258","startDate":"2017-11-15
+        20:00:00","startTimestamp":"1510772400","acts":"SEVEN","addText":"","location":"","city":"Berlin","tickets":true,"genre":"","shortCountry":"D","alias":"SEVEN+at+Astra_Kulturhaus_Berlin+DE+on+15-11-2017","tip":"0","type":"1","locationString":"Astra
+        Kulturhaus","lat":"52.5083","lon":"13.4523","countryCode":"DE","averageRating":0,"freetickets":false,"bandFotos":["\/media\/avatars\/bands\/full_486949285.jpg"],"genresCsv":"Rock","genresArray":[],"genreKeysCsv":["28"],"genreString":"Rock"}}]'
+    http_version:
+  recorded_at: Wed, 07 Dec 2016 17:22:39 GMT
+recorded_with: VCR 3.0.3
