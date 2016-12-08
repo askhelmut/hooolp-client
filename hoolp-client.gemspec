@@ -16,7 +16,6 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = ">= 1.3.5"
 
   spec.add_dependency("httparty", "~> 0.12")
-  spec.add_dependency("hashie", "~> 2.0")
 
   spec.files        = Dir.glob("lib/**/*") + %w(README.md)
   spec.require_path = "lib"
