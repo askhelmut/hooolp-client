@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "hoolp-client", :path => File.expand_path("..", __FILE__)
+
 gem "byebug"
 gem "guard"
 gem "guard-rspec"
@@ -14,5 +16,3 @@ gem "terminal-notifier"
 gem "terminal-notifier-guard"
 gem "vcr"
 gem "webmock", ">= 1.13"
-
-gemspec
